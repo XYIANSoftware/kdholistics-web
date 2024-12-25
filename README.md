@@ -1,2 +1,9 @@
-# KD Holistics
-Portfolio, blog and content display for KD Holistics 
+# KD Holistics Web 
+
+   - React 19   
+   - Next 15 
+   - Typescript 
+   - Tailwind 
+   - Prime React 
+
+## 

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// import "./globals.css";
 // import { Inter } from 'next/font/google';
-import './globals.scss';
+// import './globals.scss';
 import 'primeicons/primeicons.css';
-import '/node_modules/primeflex/primeflex.css';
+// import '/node_modules/primeflex/primeflex.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'primereact/resources/themes/md-dark-indigo/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';

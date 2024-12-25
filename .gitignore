@@ -1,0 +1,106 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+
+# Next.js static files (optional if using "next export")
+static/
+public/static/
+
+# Production build files (if any)
+dist/
+build/
+
+# dotenv environment files (local secrets)
+.env
+.env.*
+!.env.example  # Keep an example file in repo for reference
+
+# VSCode settings and IntelliJ files
+.vscode/
+.idea/
+
+# MacOS metadata files
+.DS_Store
+
+# Optional coverage reports (if using Jest, Cypress, etc.)
+coverage/
+.nyc_output/
+
+# TypeScript build outputs
+*.tsbuildinfo
+
+# Ignored by default if using Yarn Berry (Plug’n’Play)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Ignore temporary files
+*.swp
+*.tmp
+*.temp
+
+# If you’re using testing libraries like Cypress or Playwright:
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+
+# If using Docker:
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml

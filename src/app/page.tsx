@@ -1,6 +1,6 @@
 'use client'
 
-import { HomeTemporary } from "@/components";
+// import { HomeTemporary } from "@/components";
 
 
 export default function Home()
@@ -11,7 +11,7 @@ export default function Home()
       <h1>KD Holistics</h1>
       <p>Holistic Health by Kasaundra Dilbeck</p>
       <br></br>
-      <HomeTemporary />
+      {/* <HomeTemporary /> */}
    </div>
   );
 }
