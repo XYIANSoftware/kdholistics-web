@@ -1,11 +1,7 @@
 import React from 'react'
-
-const XyInputText = () => {
+export const XyInputText = () => {
   return (
-    <div>
-      
-    </div>
+    <div></div>
   )
 }
 
-export default XyInputText
